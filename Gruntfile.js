@@ -42,12 +42,12 @@ module.exports = function (grunt) {
     }]
       }
     },
-    uglify: { // Begin JS Uglify Plugin
-      build: {
-        src: ['src/*.js'],
-        dest: 'js/script.min.js'
-      }
-    },
+    // uglify: { // Begin JS Uglify Plugin
+    //   build: {
+    //     src: ['src/*.js'],
+    //     dest: 'js/script.min.js'
+    //   }
+    // },
     watch: { // Compile everything into one task with Watch Plugin
       css: {
         files: '**/*.scss',
@@ -55,7 +55,7 @@ module.exports = function (grunt) {
       },
       js: {
         files: '**/*.js',
-        tasks: ['uglify']
+        // tasks: ['uglify']
       }
     }
   });

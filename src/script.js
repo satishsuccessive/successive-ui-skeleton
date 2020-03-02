@@ -1,7 +1,7 @@
 (function ($) {
 	$(function () {
 		$('button').click(function () {
-			alert("jQuery alert!");
+			alert("hhhhh !");
 		});
 	});
 })(jQuery); 
